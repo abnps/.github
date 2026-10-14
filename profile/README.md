@@ -28,4 +28,9 @@ Programi su besplatni i ostaju besplatni. Ako ti koriste, možeš dobrovoljno po
 **[Ko-fi](https://ko-fi.com/abnps)**.
 Prilog ništa ne otključava — program je isti za sve.
 
+## 💬 Zajednica · Community
+
+Pitanja, pomoć i novosti na 5 jezika: **[Discord](https://discord.gg/xZ7JNKSaKb)**.
+*Questions, help and news in 5 languages.*
+
 📧 abnpsdev@gmail.com
