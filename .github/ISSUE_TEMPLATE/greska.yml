@@ -1,0 +1,47 @@
+name: "Prijavi grešku · Report a bug"
+description: "Nešto ne radi kako treba. · Something doesn't work as it should."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hvala što prijavljuješ! Ne upisuj lozinke, kolačiće ni privatne linkove.
+        *Thanks for reporting! Don't include passwords, cookies or private links.*
+  - type: input
+    id: verzija
+    attributes:
+      label: "Verzija programa · App version"
+      description: "Pomoć → O programu · Help → About"
+      placeholder: "1.0.8"
+    validations:
+      required: true
+  - type: dropdown
+    id: sistem
+    attributes:
+      label: "Sistem · System"
+      options:
+        - Windows (GitHub / sajt)
+        - Windows (Microsoft Store)
+        - macOS
+        - Linux (AppImage)
+        - Android
+        - "Dodatak za browser · Browser extension"
+    validations:
+      required: true
+  - type: textarea
+    id: opis
+    attributes:
+      label: "Šta se desilo? · What happened?"
+      description: "Šta si uradio, šta si očekivao i šta se desilo umjesto toga. · What you did, what you expected and what happened instead."
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: "Link (ako je javan) · Link (if public)"
+      description: "Samo javni video, ne privatni ni iza prijave. · Public videos only."
+  - type: textarea
+    id: izvjestaj
+    attributes:
+      label: "Izvještaj o problemu · Problem report"
+      description: "Na računaru: Pomoć → Sačuvaj izvještaj o problemu, pa ovdje prevuci fajl. · On the computer: Help → Save a problem report, then drag the file here."

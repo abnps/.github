@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Pitanja i pomoć (Discord) · Questions and help"
+    url: https://discord.gg/xZ7JNKSaKb
+    about: "Pitanja, pomoć i novosti na 5 jezika. · Questions, help and news in 5 languages."
+  - name: "Prijedlog ili pitanje mejlom · Suggestion by email"
+    url: mailto:abnpsdev@gmail.com
+    about: "abnpsdev@gmail.com"
